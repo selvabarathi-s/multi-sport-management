@@ -118,8 +118,8 @@ Edit `src/multisport/DatabaseConnection.java`:
 
 ```java
 private static final String DB_URL = "jdbc:mysql://localhost:3306/multisport?useSSL=false&serverTimezone=UTC";
-private static final String USER = "root";
-private static final String PASS = "1234";
+private static final String USER = "YOUR_USERNAME";
+private static final String PASS = "YOUR_PASSWORD";
 ```
 
 Update `USER` and `PASS` to match your MySQL credentials.
