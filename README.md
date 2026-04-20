@@ -210,16 +210,3 @@ The schema includes sample data for:
 - **6 Matches**: 2 per sport
 - **7 Player Stats**: Performance records across matches
 
-## Key Concepts
-
-- Primary Keys for unique identification
-- Foreign Keys with `ON DELETE CASCADE/RESTRICT/SET NULL`
-- `CHECK` constraints for data validation
-- Indexes on foreign keys for query performance
-- Database normalization up to 3NF
-- DAO pattern for clean separation of concerns
-- PreparedStatements to prevent SQL injection
-
-## Viva Point
-
-> "This project implements a fully normalized multi-sport relational database with indexed foreign keys, constraint enforcement, DAO-based Java architecture, and analytical SQL queries for performance insights."
